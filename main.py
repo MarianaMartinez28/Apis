@@ -3,6 +3,7 @@ from requests.auth import HTTPBasicAuth
 import json
 import tkinter as tk
 from tkinter import messagebox, ttk
+from pydoc import text
 
 # Configuración de conexión al router
 ROUTER_IP = '192.168.56.105'
